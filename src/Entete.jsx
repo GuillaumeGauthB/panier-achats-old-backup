@@ -2,7 +2,7 @@ import './Entete.scss';
 
 export default function Entete() {
     return (
-        <header class="Entete">
+        <header className="Entete">
             <h1>Magasin général</h1>
             <nav>
             <a href="#">Panier d'achats</a>
