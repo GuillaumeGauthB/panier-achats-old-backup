@@ -2,7 +2,7 @@ import './ListeProduits.scss';
 import Produit from './Produit.jsx';
 import lesProduits from './data/produits.json'
 
-export default function ListeProduits(){
+export default function ListeProduits(props){
   console.log('La variable lesProduits : ', lesProduits);
   // let notes = [59.566, 78.23, 85.258, 35.9954];
 
@@ -21,8 +21,8 @@ export default function ListeProduits(){
             <h2>Nos produits</h2>
             <div className="produits">
               {
-                lesProduits.map(p => <Produit key={p.id} nom={p.nom} 
-                                        prix={p.prix} pid={p.id}/>)
+                lesProduits.map(p => <Produit key={p.id} nom={p.nom} panier={props.panier}
+                                        prix={p.prix} pid={p.id} setPanier={props.setPanier} />)
               }
             </div>
           </section>

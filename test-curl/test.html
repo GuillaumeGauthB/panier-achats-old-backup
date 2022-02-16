@@ -1,0 +1,363 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<title>Omnivox - Collège de Maisonneuve</title>
+	<meta name="Description" content="Omnivox vous simplifie la vie en intégrant des outils efficaces de communication.">
+	<meta name="keywords" content="Omnivox, Collège de Maisonneuve, Léa, l'environnement Profs-Étudiants, Mio">
+	
+
+	
+	
+
+	<link href="/Login/Content/BundlerMinifier/content/css/gen.min.css?v=637793941180000000" rel="stylesheet">
+
+</head>
+<body class="body-identification-intraflex  MAI PROD carousel-active"
+      >
+    
+
+    
+    <div class="carousel-identification-sso"><div class="carousel-item-identification-sso visible enabled" style="opacity: 1; background-image:url('/Login/Content/Images/MAI/Carousel/1.jpg?t=637426771180000000');"></div><div class="carousel-item-identification-sso " style="opacity: 0; background-image:url('/Login/Content/Images/MAI/Carousel/2.jpg?t=637426771180000000');"></div><div class="carousel-item-identification-sso " style="opacity: 0; background-image:url('/Login/Content/Images/MAI/Carousel/3.jpg?t=637426771180000000');"></div><div class="carousel-item-identification-sso " style="opacity: 0; background-image:url('/Login/Content/Images/MAI/Carousel/4.jpg?t=637426771180000000');"></div><div class="carousel-item-identification-sso " style="opacity: 0; background-image:url('/Login/Content/Images/MAI/Carousel/5.jpg?t=637426771200000000');"></div></div>
+
+
+
+    <div class="identification-intraflex right">
+
+        
+        <div class="row header-identification-intraflex">
+            <div class="col s12">
+                <div class="header-title-identification-intraflex"><h1 class="title">Omnivox<div class="border"></div></h1><div class="subtitle"><a href="https://www.cmaisonneuve.qc.ca" target="_blank" rel="noopener">Collège de Maisonneuve</a></div></div>
+            </div>
+        </div>
+
+        <div class="row contenu-identification-intraflex">
+            <div class="col s12 no-padding">
+                
+
+
+<div class="section-login">
+
+	
+	<!-- ONLOAD_MAIN -->
+	
+	<div class="container-roles nb-roles-2">
+			<a role="button" class="role role-2" id="role-2"
+			   data-label-identifiant="No de dossier" 
+			   data-placeholder-identifiant="0000000"
+			   data-name-identifiant="NoDA"
+			   data-is-maskable-identifiant="False"
+			   data-label-password="Mot de passe"
+			   data-placeholder-password="••••••••"
+			   data-name-password="PasswordEtu"
+			   data-type-utilisateur="Etudiant"
+			   data-url-oubli-mdp="/intr/Module/Identification/OubliMotPasse.aspx?TypeUtilisateur=Etudiant"
+			   data-text-oubli-mdp="Oubli&#233; votre mot de passe?"
+			   data-url-premiere-util="/intr/Module/Identification/?TypeUtilisateur=Etudiant"
+			   aria-label="Type d&#39;identification : Étudiants"
+			   tabindex="0">
+				Étudiants
+			</a>
+			<a role="button" class="role role-3" id="role-3"
+			   data-label-identifiant="No&#160;d&#39;employ&#233;" 
+			   data-placeholder-identifiant="00000"
+			   data-name-identifiant="NoEmplEmployeNormal"
+			   data-is-maskable-identifiant="True"
+			   data-label-password="Mot de passe"
+			   data-placeholder-password="••••••••"
+			   data-name-password="PasswordEmplEmployeNormal"
+			   data-type-utilisateur="EmployeNormal"
+			   data-url-oubli-mdp="/intr/Module/Identification/OubliMotPasse.aspx?TypeUtilisateur=EmployeNormal"
+			   data-text-oubli-mdp="Oubli&#233; votre mot de passe?"
+			   data-url-premiere-util="/intr/Module/Identification/?TypeUtilisateur=EmployeNormal"
+			   aria-label="Type d&#39;identification : Employés"
+			   tabindex="0">
+				Employés
+			</a>
+	</div>
+
+	<div id="section-form">
+		<form name="formLogin" autocomplete="on" id="formLogin" action="/intr/Module/Identification/Login/Login.aspx" method="post">
+
+<input id="StatsEnvUsersNbCouleurs" name="StatsEnvUsersNbCouleurs" type="hidden" value="" /><input id="StatsEnvUsersResolution" name="StatsEnvUsersResolution" type="hidden" value="" /><input id="k" name="k" type="hidden" value="637806148922362415" /><input id="TypeLogin" name="TypeLogin" type="hidden" value="PostSolutionLogin" />
+
+
+			<input id="TypeIdentification" name="TypeIdentification" type="hidden" value="" />
+			<input id="ReturnUrl" name="ReturnUrl" type="hidden" value="/intr" />
+
+			<div class="row no-margin">
+				<div class="msg-erreur offset-s1 s10 col no-padding">
+					
+				</div>
+			</div>
+
+			<div class="row no-margin">
+				<div class="offset-s1 s10 div-identifiant input-field col"><input autocomplete="off" data-length="255" data-val="true" data-val-skyrequired="Le champ &#39;Identifiant&#39; est requis." data-val-skystringlength="Le champ &#39;&#39; doit avoir une longueur comprise entre 0 et 255 caractères." data-val-skystringlength-maxlength="255" data-val-skystringlength-minlength="0" id="Identifiant" maxlength="255" name="Identifiant" type="text" value="" /><label for="Identifiant"></label><span class="field-validation-valid" data-valmsg-for="Identifiant" data-valmsg-replace="true"></span><div class="description"></div></div>
+				<div class="s4 div-suffixe-identifiant"></div>
+			</div>
+
+			<div class="row no-margin">
+				<div class="offset-s1 s10 input-field col"><input autocomplete="off" data-val="true" data-val-skyrequired="Le champ &#39;Password&#39; est requis." id="Password" name="Password" type="password" /><label for="Password"></label><span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span><div class="description"></div></div>
+			</div>
+
+			<div class="row no-margin-right no-margin-left">
+				<div class="col s10 offset-s1">
+					<button class="btn green darken-3 right recaptcha-trigger no-margin-right" type="submit">
+						<i class="material-icons right no-margin-left-on-med-and-down">navigate_next</i>
+						<span>Connexion</span>
+					</button>
+				</div>
+			</div>
+
+				<div class="row no-margin">
+					<div class="offset-s1 s10 col">
+						<a class="lienUtil lien-premiere-util" href="#">Première utilisation?</a>
+						<br />
+						<a class="lienUtil lien-oubli-mdp" href="#" target="_self"></a>
+					</div>
+				</div>
+
+
+
+			<div class="row no-margin">
+				<div class="col s12">
+					<div class="logo-client"></div>
+				</div>
+			</div>
+		</form>
+	</div>
+
+</div>
+
+
+            </div>
+        </div>
+
+
+        <div class="row footer-identification-intraflex">
+
+            <div class="col s12">
+
+                <ul class="center no-margin">
+                    <li>
+                        <a role="button" class="grey-text text-darken-2 modal-trigger" href="#modal-footer-securite">Sécurité et Paiement</a>
+                    </li>
+                    <li>
+                        <a role="button" class="grey-text text-darken-2 modal-trigger" href="#modal-footer-conditions">Conditions d'utilisation</a>
+                    </li>
+                    <li>
+                        <a role="button" class="grey-text text-darken-2 modal-trigger" href="#modal-footer-apropos">Des questions?</a>
+                    </li>
+
+                    <li>
+                        <p class="grey-text text-darken-2  no-margin-bottom">
+                            &copy; 2022
+                            <a class="grey-text text-darken-2" href="https://www.skytech.com/" target="_blank" rel="noopener">
+                                Skytech Communications
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div aria-labelledby="modal-footer-securite-label" aria-modal="true" class="fs-mobile modal-dialog modal" id="modal-footer-securite" role="dialog"><div class="modal-header"><h4 class="modal-title no-margin" id="modal-footer-securite-label">Sécurité et confidentialité</h4><button aria-label="Fermer" class="waves-effect waves-action-blue btn-icon action-blue modal-close tooltipped modal-x-btn" data-tooltip="Fermer" type="button"><i class="material-icons">close</i></button></div><div class="modal-content-wrapper"><div class="modal-content">
+<p class="no-margin-top">
+	La <span style='font-weight:bold;'>technologie Omnivox</span>, développée par <a href='https://www.skytech.com/' target='_blank' rel='noopener' style='font-weight:bold;'>Skytech Communications</a>, utilisée par le Collège de Maisonneuve souscrit à des normes très rigoureuses en matière de sécurité et de confidentialité. Toutes les précautions ont été prises pour que les renseignements vous concernant soient protégés contre toute erreur, perte ou accès non autorisé.
+</p>
+
+<h5>Cryptographie</h5>
+
+<p>
+	Toutes les opérations effectuées sur Omnivox sont cryptées afin d'assurer la confidentialité des informations circulant entre Omnivox et vous.
+</p>
+
+<h5>Pare-feu</h5>
+
+<p>
+	L'accès est contrôlé par plusieurs pare-feux filtrant les demandes d'accès afin d'identifier et de neutraliser toute tentative de pénétration non autorisée.
+</p>
+
+	<br />
+	<h4>Paiement de frais via Omnivox</h4>
+	<p>
+		Omnivox simplifie la vie des étudiants, enseignants et employés du Collège en intégrant des outils efficaces de communication. La gestion du dossier étudiant est grandement facilitée.<br><br>Le module Centre de paiement par exemple, permet de payer facilement les frais de scolarité. Dès le paiement accepté par la banque, le solde est automatiquement ajusté au dossier de l'étudiant, simplifiant la vie de l'étudiant et du Collège. Notez qu'aucun remboursement n'est offert pour ces transactions.
+	</p>
+	<p>
+		Tous les paiements effectués via Omnivox sont en devise Canadienne (CAD).
+	</p>
+	<p>
+		En cas d'erreur ou de problème technique, veuillez communiquer avec le Collège de Maisonneuve au 514.254.7131 dans les meilleurs délais.
+	</p>
+	<p>
+		Les cartes acceptées par Omnivox du Collège de Maisonneuve sont :
+	</p>
+	<img src="/images/General/cc_mc_petit.gif" title="Mastercard" alt="Mastercard" />
+	<img src="/images/General/cc_visa_petit.gif" title="Visa" alt="Visa" />
+	<br />
+	<p>
+		Le Collège de Maisonneuve est situé au :<BR>3800, rue Sherbrooke est<br />Montréal, QC Canada<br/>H1X 2A2
+	</p>
+
+<br />
+
+<h4>Mesures de confidentialité</h4>
+
+<h5>Fermeture de session</h5>
+
+<p>
+	Il est important de fermer votre session dès que vous avez terminé votre utilisation ou lorsque, en cours d'utilisation, vous devez quitter momentanément.
+</p>
+
+
+<h5>Utilisation de fichiers témoins</h5>
+
+<p>
+	Des fichiers témoins sont utilisés dans Omnivox. Ces fichiers permettent de vous identifier d'une visite à l'autre et d'une page à l'autre à l'intérieur d'une session de travail de façon à faciliter votre accès et votre navigation. Les fichiers témoins ne peuvent être lus que par le site Web qui vous les transmet.
+</p>
+
+<p>
+	Les fichiers témoins utilisés dans Omnivox servent à recueillir vos préférences de navigation et ne contiennent aucune information sensible.
+</p>
+
+<br />
+
+<h4>Navigateurs supportés</h4>
+
+<p>
+	Afin d'obtenir une expérience optimale, nous vous recommandons d'utiliser Omnivox avec les navigateurs suivants:
+</p>
+
+<ul class="list-style-initial">
+	<li>Chrome (dernière version)</li>
+	<li>Firefox (dernière version)</li>
+	<li>Microsoft Edge (dernière version)</li>
+	<li>Safari - Pour Mac (version 10+)</li>
+</ul>	
+
+</div></div><div class="modal-footer"><button class="waves-effect waves-action-blue btn-outlined modal-action modal-close modal-btn-cancel" type="button">Fermer</button></div></div>
+    <div aria-labelledby="modal-footer-conditions-label" aria-modal="true" class="fs-mobile modal-dialog modal" id="modal-footer-conditions" role="dialog"><div class="modal-header"><h4 class="modal-title no-margin" id="modal-footer-conditions-label">Conditions d'utilisation</h4><button aria-label="Fermer" class="waves-effect waves-action-blue btn-icon action-blue modal-close tooltipped modal-x-btn" data-tooltip="Fermer" type="button"><i class="material-icons">close</i></button></div><div class="modal-content-wrapper"><div class="modal-content">
+
+
+	<h5 class="no-margin-top">Mot de passe Omnivox</h5>
+	<p>
+		Vous pouvez choisir le mot de passe que vous désirez utiliser pour accéder à Omnivox. Votre mot de passe doit cependant respecter certaines contraintes qui ont pour but de maximiser la sécurité offerte. Assurez-vous de sélectionner un mot de passe que vous retiendrez facilement, mais qui sera difficile à deviner par quelqu'un d'autre.
+	</p>
+	<p>
+		Afin de protéger vos renseignements personnels, traitez votre mot de passe Omnivox avec autant de soins que votre NIP bancaire&nbsp;: ne le divulguez à personne, ne le mettez pas en mémoire dans votre ordinateur et ne l'inscrivez nulle part.
+	</p>
+	<p>
+		Bien gérer votre mot de passe, c'est maximiser sa sécurité et la sécurité de vos informations confidentielles. Vous êtes personnellement responsable de la protection de votre mot de passe Omnivox&nbsp;: nous ne pouvons être tenus responsables de tout accès non autorisé à votre dossier ou de toute perte ou dommage survenant suite à un accès non autorisé à votre dossier résultant de votre négligence à protéger votre mot de passe Omnivox.
+	</p>
+<h5 class="no-margin-top">Accès non autorisé</h5>
+
+<p>
+	Il est expressément interdit d'accéder ou de permettre l'accès à tout service d'Omnivox à des fins illégitimes. Sont considérés comme illégitimes :
+</p>
+
+<ul class="list-style-initial">
+	<li>Tout accès frauduleux utilisant l'identifiant d'une autre personne et son mot de passe Omnivox sans sa permission explicite</li>
+	<li>Toute tentative, par quelque moyen, y compris tout moyen technologique ou informatique, d'obtenir le mot de passe d'un utilisateur à son insu</li>
+</ul>
+
+<p>
+	Toute tentative d'accès à un compte qui n'est pas le vôtre constitue un usage frauduleux passible de sanctions sévères, incluant le renvoi de votre établissement d'enseignement. Ces sanctions s'ajoutent à tout autre recours approprié en matière de poursuite civile ou pénale.
+</p>
+
+<h5>Restrictions relatives à l'utilisation du contenu</h5>
+
+<p>
+	Autrement qu'aux fins de l'usage auquel Omnivox est destiné, il est strictement interdit de reproduire toute information, donnée, texte, message ou toute autre forme de contenu présenté par Omnivox par quelque procédé que ce soit.
+</p>
+
+<p>
+	Il est donc notamment interdit, sans s'y limiter, de
+</p>
+
+<ul class="list-style-initial">
+	<li>Contrefaire ou manipuler de quelque manière que ce soit toute partie du site Web ou de son contenu ou des services d'Omnivox</li>
+	<li>Télécharger, afficher, transmettre par courriel ou de toute autre manière toute information contenue sur Omnivox ou ses services pour les disséminer à des fins illégitimes, et notamment à des fins d'hameçonage (<i>phishing</i>)</li>
+	<li>Télécharger ou transmettre tout contenu comprenant un virus informatique ou tout autre code informatique, dossier ou programme destiné à interrompre, détruire ou limiter les fonctionnalités d'Omnivox ou du réseau de l'établissement d'enseignement.</li>
+	<li>Entraver, perturber ou utiliser de façon abusive les services d'Omnivox, ses serveurs ou les réseaux connexes</li>
+	<li>Tenter de collecter ou de conserver des données personnelles afférentes aux autres utilisateurs</li>
+</ul>
+
+<p>
+	Toute infraction à ces restrictions d'utilisation rend la personne coupable passible de sanctions sévères incluant le renvoi du Collège de Maisonneuve. Ces sanctions peuvent s'ajouter à toute autre sanction appropriée en matière de poursuite civile ou pénale.
+</p>
+
+<h5>Liens vers des sites Web ou des services de tierces parties</h5>
+
+<p>
+	Pour votre commodité, Omnivox propose des liens vers des sites, des parties de sites ou des services offerts par des tiers, comme par exemple des sites de ressources ou de matériel pédagogique. Nous n'avons aucun contrôle sur le contenu et l'exploitation de ces sites ni sur leurs pratiques et leur fonctionnement.
+</p>
+
+<h5>Propriété intellectuelle de tierces parties</h5>
+
+<p class="no-margin-bottom">
+	Tout utilisateur mettant en ligne des éléments d'information à l'aide d'Omnivox doivent n'enfreindre aucun droit d'auteur, aucune marque de commerce et aucun autre droit, titre ou intérêt de propriété intellectuelle, appartenant à toute tierce personne. L'utilisateur mettant du contenu en ligne à l'aide d'Omnivox doit s'assurer d'obtenir ou de posséder les droits appropriés lui permettant entre autres d'inclure sur Omnivox tout élément (en tout ou en partie) qui est la propriété intellectuelle d'un tiers.
+</p>
+
+
+	<h5>À propos de la plateforme Zoom</h5>
+	<p>
+		Les classes à distance Léa s'offrent via Zoom, une plateforme de visioconférence externe. Omnivox ne transfère pas d'information personnelle à votre sujet à cette plateforme, mais vous permet d'accéder à la bonne classe à la bonne heure. Omnivox n'a aucun contrôle sur la disponibilité, le contenu et l'exploitation de cette plateforme ni sur ses pratiques et son fonctionnement. Vous pouvez consulter les termes et conditions d'utilisation de cette plateforme sur le site web de son fabricant.
+	</p>
+
+
+</div></div><div class="modal-footer"><button class="waves-effect waves-action-blue btn-outlined modal-action modal-close modal-btn-cancel" type="button">Fermer</button></div></div>
+    <div aria-labelledby="modal-footer-apropos-label" aria-modal="true" class="fs-mobile modal-dialog modal" id="modal-footer-apropos" role="dialog"><div class="modal-header"><h4 class="modal-title no-margin" id="modal-footer-apropos-label">Des questions?</h4><button aria-label="Fermer" class="waves-effect waves-action-blue btn-icon action-blue modal-close tooltipped modal-x-btn" data-tooltip="Fermer" type="button"><i class="material-icons">close</i></button></div><div class="modal-content-wrapper"><div class="modal-content"><p class="no-margin">
+	En cas de problème, vous pouvez contacter le Service de l'organisation scolaire au 514.254.7131&nbsp;x4201 durant les heures de bureau.
+</p></div></div><div class="modal-footer"><button class="waves-effect waves-action-blue btn-outlined modal-action modal-close modal-btn-cancel" type="button">Fermer</button></div></div>
+
+    <script type="text/javascript" src="/Login/Content/Partage/JavaScript/JQueryLatest/jquery.min.js?v=637793941920000000"></script><script type="text/javascript" src="/Login/Content/Partage/JavaScript/JQueryLatest/jquery-ui.min.js?v=637793941920000000"></script><script type="text/javascript" src="/Login/Content/BundlerMinifier/javascript/skytech.min.js?v=637709506560000000"></script><script type="text/javascript" src="/Login/Content/Partage/JavaScript/Bundles/validation-latest-bundle.min.js?v=637709506580000000"></script><script type="text/javascript" src="/Login/Content/BundlerMinifier/javascript/materialize.min.js?v=637709506560000000"></script><script type="text/javascript" src="/Login/Content/BundlerMinifier/javascript/modernizr.min.js?v=637709506560000000"></script><script type="text/javascript" src="/Login/Content/Partage/JavaScript/Bundles/communication-mobile-bundle.min.js?v=637709506560000000"></script><script type="text/javascript" src="/Login/Content/BundlerMinifier/javascript/module.min.js?v=637709506560000000"></script>
+
+    <script type="text/javascript">
+		
+		window.Login.Master.InitMaterial();
+		window.Login.Master.InitValidator();
+		window.Login.Master.InitAntiFormMultiSubmit();
+		window.Login.Master.InitDefaultActionOnEnter();
+
+		$(window).on("load", function () {
+			window.Login.Master.InitCarousel();
+                     window.Login.Master.InitVideo();
+
+
+		});
+
+    </script>
+
+
+    
+	<script type="text/javascript" src="/Login/Content/BundlerMinifier/javascript/module/loginIntraflex.min.js?v=637709506560000000"></script>
+	<script type="text/javascript">
+        var serverVariables = {
+            btnMaskIdentifiantActiveTitle: "Afficher le texte du champ [LABEL]",
+            btnMaskIdentifiantInactiveTitle: "Masquer le texte du champ [LABEL]"
+        };
+
+		$('.role').on('click', Login.LoginIntraflex.RoleClick)
+		$('.role').on('keydown', function (e) {
+			if (e.which == 13) { // 13 = M.keys.ENTER
+				e.target.click();
+			}
+		});
+
+        Login.LoginIntraflex.InitializeLogin(false, serverVariables);
+	</script>
+
+
+
+
+
+
+</body>
+</html>
